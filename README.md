@@ -75,5 +75,5 @@ Tudo isso para que ao final do Bootcamp o aluno possa estar apto a desenvolver e
 
 <hr>
 ### Duração do Bootcamp :clock1:
-<hr>
+
 Cerca de 2 meses e meio, totalizando 148 horas. 
