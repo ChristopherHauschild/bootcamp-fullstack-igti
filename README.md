@@ -16,7 +16,7 @@ Tudo isso para que ao final do Bootcamp o aluno possa estar apto a desenvolver e
   <li> Git e Heroku </li>
 </ul>
 
-## Módulos do Bootcamp:
+## Módulos do Bootcamp: :pencil:
 
 <h3> Módulo 1 - Aquecimento e regras do jogo </h3>
 <ul list-style="none">
@@ -73,6 +73,7 @@ Tudo isso para que ao final do Bootcamp o aluno possa estar apto a desenvolver e
   <li> Entrega do Desafio Final. </li>
 </ul>
 
-### Duração do Bootcamp
+<hr>
+### Duração do Bootcamp :clock1:
 <hr>
 Cerca de 2 meses e meio, totalizando 148 horas. 
