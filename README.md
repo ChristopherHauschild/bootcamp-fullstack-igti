@@ -13,6 +13,7 @@ Tudo isso para que ao final do Bootcamp o aluno possa estar apto a desenvolver e
   <li> Node.js e Express </li>
   <li> Insomnia e mLab </li>
   <li> React.js </li>
+  <li> MongoDB </li>
   <li> Git e Heroku </li>
 </ul>
 
