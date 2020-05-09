@@ -7,7 +7,7 @@ Tudo isso para que ao final do Bootcamp o aluno possa estar apto a desenvolver e
 
 
 ## Linguagens, ferramentas e tecnologias trabalhadas: :computer:
-<hr>
+
 <ul>
   <li> HTML, CSS e JavaScript </li>
   <li> Node.js e Express </li>
@@ -17,7 +17,7 @@ Tudo isso para que ao final do Bootcamp o aluno possa estar apto a desenvolver e
 </ul>
 
 ## Módulos do Bootcamp:
-<hr>
+
 <h3> Módulo 1 - Aquecimento e regras do jogo </h3>
 <ul list-style="none">
   <li> Normas acadêmicas da Instituição. </li>
@@ -60,7 +60,7 @@ Tudo isso para que ao final do Bootcamp o aluno possa estar apto a desenvolver e
 </ul>
 
 <h3> Módulo 5 - Persistência de dados, versionamento de código e implantação </h3>
-<ul list-style="none">
+<ul list-style:none>
   <li> Introdução ao MongoDB. Utilização do serviço mLab. Integrando a API ao MongoDB no
   mLab. </li>
   <li> Introdução ao Git. Instalação do git. Principais comandos do Git. </li>
