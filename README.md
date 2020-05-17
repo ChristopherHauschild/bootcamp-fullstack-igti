@@ -19,7 +19,7 @@ Tudo isso para que ao final do Bootcamp o aluno possa estar apto a desenvolver e
 
 ## Módulos do Bootcamp: :pencil:
 
-<h3> Módulo 1 - Aquecimento e regras do jogo </h3>
+<h3> Módulo 0 - Aquecimento e regras do jogo </h3>
 <ul list-style="none">
   <li> Normas acadêmicas da Instituição. </li>
   <li> Plano Pedagógico do Curso. </li>
@@ -29,7 +29,7 @@ Tudo isso para que ao final do Bootcamp o aluno possa estar apto a desenvolver e
   <li> Autogestão. </li>
 </ul>
 
-<h3> Módulo 2 - Fundamentos </h3>
+<h3> Módulo 1 - Fundamentos </h3>
 <ul list-style="none">
   <li> Introdução, instalação e configuração do Visual Studio Code (VSCode). </li>
   <li> Instalação do Node.js. Instalação da biblioteca live-server. </li>
@@ -39,7 +39,7 @@ Tudo isso para que ao final do Bootcamp o aluno possa estar apto a desenvolver e
   manipulação de eventos. </li>
 </ul>
 
-<h3> Módulo 3 - Desenvolvimento de API’s </h3>
+<h3> Módulo 2 - Desenvolvimento de API’s </h3>
 <ul list-style="none">
   <li> Introdução ao desenvolvimento backend. Backend x frontend. Introdução ao
   desenvolvimento de APIs. Introdução ao desenvolvimento com Node. js. </li>
@@ -49,7 +49,7 @@ Tudo isso para que ao final do Bootcamp o aluno possa estar apto a desenvolver e
   <li> Desenvolvimento das operações CRUD.Persistência de Dados em Arquivos. </li>
 </ul>
 
-<h3> Módulo 4 - FrontEnd com React </h3>
+<h3> Módulo 3 - FrontEnd com React </h3>
 <ul list-style="none">
  <li> Instalação e configuração do React. Criação de projetos com o create-react-app. </li>
  <li> Introdução ao React – JSX, Componentes de Funções, Componentes de Classe. </li>
@@ -60,7 +60,7 @@ Tudo isso para que ao final do Bootcamp o aluno possa estar apto a desenvolver e
  <li> Criação de um pequeno projeto passo-a-passo com React </li>
 </ul>
 
-<h3> Módulo 5 - Persistência de dados, versionamento de código e implantação </h3>
+<h3> Módulo 4 - Persistência de dados, versionamento de código e implantação </h3>
 <ul list-style:none>
   <li> Introdução ao MongoDB. Utilização do serviço mLab. Integrando a API ao MongoDB no
   mLab. </li>
@@ -69,7 +69,7 @@ Tudo isso para que ao final do Bootcamp o aluno possa estar apto a desenvolver e
   <li> Como implantar aplicações no Heroku. </li>
  </ul>
 
-<h3> Módulo 6 - Fechamento </h3>
+<h3> Módulo 5 - Fechamento </h3>
 <ul list-style="none">
   <li> Entrega do Desafio Final. </li>
 </ul>
