@@ -1,0 +1,5 @@
+- Desafio guiado
+- Implementação de CRUD
+  -> (Create, Retrieve, Update, Delete)
+- Alterações do DOM
+- Programação orientada à dados

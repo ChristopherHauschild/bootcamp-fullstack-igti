@@ -1,0 +1,16 @@
+- Introdução ao DOM* (Document Object Model)
+- Manipulação do DOM
+- Manipular CSS com JavaScript
+- Comandos querySelector/querySelectorAll
+- Comandos classList.add() e classList.remove()
+- Finalizado Curriculum
+
+*: Árvore de objetos em memória.
+No caso da web, mapeia documentos HTML em objetos.
+
+- querySelectorAll():
+  -> Retorno do tipo NodeList.
+  -> Array.from() para conversão em array
+
+- .textContent:
+  -> Pega conteúdo do elemento

@@ -1,0 +1,7 @@
+- Introdução ao CSS
+- Estilização de conteúdo HMTL
+- Sintaxe do CSS
+- Textos, cores e posicionamentos
+- Propriedades CSS
+- Elementos x classes x id's
+- CSS Reset

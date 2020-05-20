@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'RobotoMono';
+  src: url('./fonts/RobotoMono-Thin.ttf');
+}
+
+* {
+  font-family: 'RobotoMono', monospace;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(#ffcf68, #72e5e7);
+}
+
+h1 {
+  align-self: center;
+  font-weight: 500;
+}
+
+form {
+  display: flex;
+  width: 100%;
+
+  margin-top: 15px;
+}
+
+
+.labelForm {
+  margin-left: 20px;
+  font-size: 1.5rem;
+  display: inline-block;
+}
+
+.inputForm {
+  display: flex;
+  width: 100%;
+
+  margin: 0px 20px 0px 10px;
+}
+
+input {
+  width: 100%;
+
+  box-shadow: 2px 2px 2px 1px rgba(11,8,9,0.75);
+  border: none;
+  padding: 5px;
+}
+
+h2 {
+  margin: 35px 0px 15px 20px;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+ul {
+  padding: 0px;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+li {
+  margin: 10px;
+  padding: 8px;
+  background-color: #0001;
+  border-bottom: 1px solid #000;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.deleteButton {
+  color: white;
+  font-weight: bold;
+  background-color: darkred;
+  margin-right: 10px;
+  border-radius: 50%;
+  border: none;
+}

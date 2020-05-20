@@ -1,0 +1,49 @@
+body {
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.dados-pessoais {
+  margin: 30px 0px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.dados-pessoais img{
+  width: 250px;
+}
+
+#dados {
+  margin-left: 20px;
+}
+
+.data {
+  margin: 10px 0px;
+  font-size: 1.2rem;
+}
+
+table, tr, td, th {
+  text-align: center;
+  padding: 5px;
+  border: 1px solid grey;
+  margin: 30px 0;
+}
+
+th {
+  background-color: #0002;
+}
+
+.link {
+  margin: 25px 10px;
+}
+
+.emphasis {
+  font-weight: bold;
+  color: darkslategrey;
+}

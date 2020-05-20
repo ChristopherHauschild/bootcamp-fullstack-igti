@@ -1,0 +1,6 @@
+- Comandos de bloco
+- Proposições lógicas
+- Estruturas de decisão
+    - IF/ELSE, SWITCH e TERNÁRIO
+- Estruturas de repetição
+- Funções

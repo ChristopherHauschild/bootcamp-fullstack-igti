@@ -1,0 +1,8 @@
+- Introdução ao JavaScript
+- Integração com HTML e CSS
+- ECMAScript
+- JS Frontend Web x JS Backend
+- Comandos básicos
+- Tipagem e valores
+- Operadores e variáveis
+- Console/Comentários

@@ -1,0 +1,3 @@
+- Introdução ao VSCode
+- Instalação de extensões e configuraçãoes
+- Comandos básicos do VSCode

@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'RobotoMono';
+  src: url("../fonts/RobotoMono-Thin.ttf")
+}
+
+* {
+  font-family: 'RobotoMono', monospace;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+
+  background-color: #0002;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 100px;
+  width: 600px;
+  height: 420px;
+  background-color: #efefef;
+  box-shadow: 2px 3px 3px 0px #0004;
+}
+
+
+.input-content {
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+  
+  margin: 10px 40px 30px 40px;
+  font-weight: 700;
+}
+
+.input-content input {
+  width: 300px;
+
+  margin-top: 20px;
+}
+
+#inputRed {
+  margin-left: 22px;
+}
+
+#inputBlue {
+  margin-left: 12px;
+}
+
+#valueRed,
+#valueGreen,
+#valueBlue {
+  margin-left: 10px;
+  width: 45px;
+
+  padding: 3px;
+  font-weight: 600;
+}
+
+.inputActive {
+  background-color: #0001;
+}
+
+.square {
+  width: 120px;
+  height: 120px;
+
+  box-shadow: 4px 4px 4px 0px #0003;
+  background-color: rgb(0, 0, 0);
+}
