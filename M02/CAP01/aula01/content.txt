@@ -1,0 +1,56 @@
+- Backend x Frontend
+- Introdução à APIs
+- REST e URIs
+
+- Server side rendering (PHP...)
+- Client side rendering (Angular, React...)
+
+- Integração Backend e Frontend
+
+- Express:
+  -> estrutura de servidor padrão para o Node.js.
+  -> conjunto de recursos para desenvolver aplicações web
+  -> sistema de roteamento
+
+- API:
+  -> Application Programming Interface
+  -> conjunto de serviços que são expostos de forma a permitir
+     a comunicação entre sistemas
+  -> expõe recursos de forma que sejam acessados sem saber como
+     foram implementados
+  -> pode ser vista como um contrato, representado pela
+     documentação
+  -> serviços que fazem parte de uma API sao chamados de webservices
+  -> um webservice somente transmite informações
+
+* Webservices:
+  -> facilidade na integração de sistemas
+     - depende do protocolo HTPP e um formato, como o JSON
+  -> favorece a reutilização de software
+  -> segurança na integração
+
+* REST:
+  -> Representational State Transfer
+  -> Geralmente utilizam formato JSON
+     - { "id": 3, "nome": "João" }
+     - objeto com estrutura "chave": valor
+
+* URIs:
+  -> Uniform Resource Identifier
+  -> utilizado para realizar chamada de serviços
+  -> interfaces de utilização do serviços, servindo como contrato
+  -> através dos endpoints é possível realizar várias operações
+
+  -> métodos HTTP:
+    - GET
+      ex: GET /clients: recupera dados de todos os clientes
+      ex: GET /clients/id: recupera dados de determinado clientes
+
+    - POST
+      ex: POST /clients: cria um novo cliente
+
+    - PUSH
+      ex: PUT /clients: atualiza dados de determinado cliente
+
+    - DELETE
+      ex: DELETE /clients/id: remove determinado cliente

@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 10px;
+  padding-top: 0px;
+  background: linear-gradient(to right, #fff, #0002);
+}
+
+h3 {
+  font-size: 2.5rem;
+  text-align: center;
+  text-transform: uppercase;
+
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 20px;
+
+  padding-bottom: 15px;
+  border-bottom: 1px solid #0003;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+
+  border-radius: 50%;
+  box-shadow: 1px 2px 2px 0px #0004;
+}
+
+.country-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+h6 {
+  margin-bottom: 20px;
+}
+
+.country {
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+
+  padding-left: 10px;
+  width: 330px;
+  border-radius: 1.5px;
+  box-shadow: 2px 2px 2px 0px #0005;
+  background-color: #0001;
+}
+
+.add {
+  border-radius: 50%;
+  background-color: darkgreen;
+  color: white;
+  font-weight: bold;
+}
+
+.countryList {
+  padding: 5px;
+  padding-top: 0px;
+  margin-right: 90px;
+}
+
+.flag {
+  margin-left: 5px;
+}
+
+.name-list {
+  font-size: 1.1rem;
+  margin-left: 10px;
+}

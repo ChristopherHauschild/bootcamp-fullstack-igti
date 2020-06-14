@@ -1,0 +1,11 @@
+-> fs.writeFile('nomearquivo.json', string, callbackErro)
+  - string -> JSON.stringfy(...)
+
+fs.writeFile() - sobrescreve arquivo ao atualizar requisiçao
+
+fs.appendFile() - concatena conteudo novo da requisicao
+
+-> fs.readFile('nomearquivo.json', 'utf8 (charset)', (err, data))
+  - data corresponde ao conteudo de 'nomearquivo.json'
+
+fs.readFile() - realiza leitura do arquivo

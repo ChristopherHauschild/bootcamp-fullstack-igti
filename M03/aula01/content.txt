@@ -1,0 +1,4 @@
+- Configuração do ambiente
+- Instalação extensão VS Code (ES7)
+- Terminal de comando
+- Instalação Node.js e Yarn

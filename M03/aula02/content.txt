@@ -1,0 +1,14 @@
+- Introdução ao React
+  -> biblioteca para manipulação de interfaces de usuário
+
+- Baseado em Componentes:
+  -> Alta reutilização de código
+
+- Declarativo:
+  -> Componentes reativos com JSX
+  -> Maior foco no estado do app
+  -> Manipulação do DOM performática (Virtual DOM)
+     * Reconciliation: só modifica o DOM nos locais alterados
+
+- Create-react-app
+

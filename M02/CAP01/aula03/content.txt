@@ -1,0 +1,4 @@
+- NPM
+- package.json
+- IDEs
+- Ferramentas para consumo de endpoints

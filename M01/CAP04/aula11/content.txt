@@ -1,0 +1,27 @@
+- JS Moderno - Manipulação de arrays ES6+
+
+* map:
+  -> gera novo array transformando os dados (imutável)
+
+* filter:
+  -> gera novo array filtrando elementos com base em proposição (imutável)
+
+* forEach:
+  -> percorre todos os elementos do array aplicando lógica (mutável)
+
+* reduce:
+  -> realiza cálculo iterativo com base nos elementos
+
+* find:
+  -> encontra elementos com base em proposições
+
+* some:
+  -> verifica se há pelo menos um elemento que atenda à proposição
+  -> boolean
+
+* every:
+  -> verifica se todos os elementos atendem à proposição
+  -> boolean
+
+* sort:
+  -> ordena os elementos com base em um critério

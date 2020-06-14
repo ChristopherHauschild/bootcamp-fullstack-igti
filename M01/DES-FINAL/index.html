@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+  <link rel="stylesheet" href="./css/styles.css" />
+
+  <title>Pesquisa de Usuários</title>
+</head>
+
+<body>
+  <h3>Pesquisa de Usuários</h3>
+
+  <h4 id="loading">Carregando...</h4>
+  <form>
+    <input id="inputFind" type="search" placeholder="Informe um usuário..." disabled/>
+    <button type="button" id="btnFind" class="waves-effect waves-light btn" disabled>Buscar</button>
+  </form>
+
+  <div class="users-container">
+    <div class="userList">
+      <h5><span id="countUsers">Nenhum usuário filtrado</span></h5>
+      <div id="tabUsers"></div>
+    </div>
+    <div class="statisticList">
+      <h5><span id="titleStatistics">Nada a ser exibido</span></h5>
+      <div id="tabStatistics"></div>
+    </div>
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

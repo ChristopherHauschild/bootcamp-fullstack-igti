@@ -1,0 +1,23 @@
+-> Módulos Node.js
+  - o mesmo que uma biblioteca js
+  - conjunto de funções que podem ser incluidas numa aplicação
+  - seguem o CommonJS
+    - incluir outro arquivo utilizando require
+    ex: var test = require('./arquivo')
+        console.log(test.functionArquivo())
+
+* HTTP: 
+  - o módulo nativo HTTP permite transferir dados através do protocoloo HTTP
+  - cria servidor HTTP capaz de escutar portas do servidor e enviar reposta ao cliente
+    - var http = require('http://...')
+      http.createServer((req, res))
+
+* File System:
+  - permite trabalhar com arquivos, fazendo açoes como criar, atualizar,
+    excluir e renomear arquivos
+  - possui os métodos readFile(), appendFile(), writeFile(), unlink() e rename()
+
+* Events:
+  - permite criar, disparar e escutar eventos
+  - EventEmiiter() permite que sejam adicionados callbacks aos eventos
+  - para emit() dispara eventos

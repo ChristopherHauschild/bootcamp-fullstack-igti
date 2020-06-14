@@ -1,0 +1,21 @@
+- JS Moderno - operadores
+- Rest/Spread (...)
+- Destructuring
+
+* ... (spread)
+  -> útil em arrays e objetos
+  -> espalha itens do array que podem ser recuperados
+     para compor outro arrays
+
+* ... (rest)
+  -> útil em arrays e objetos
+  -> comum em funções, agrupando params em um array
+
+ex: const superSum = (...numbers) => numbers.reduce((acc, curr) => acc + curr, 0)
+
+superSum(2, 4, 6, 1, 7)
+> 20
+
+* destructuring
+  -> facilita escrita ao trabalhar com objetos
+  -> extrai elementos de um objeto para guarda numa variável

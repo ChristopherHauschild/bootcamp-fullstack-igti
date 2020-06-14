@@ -1,0 +1,31 @@
+- Introdução ao JavaScritp Moderno
+- ES6+
+  -> transpiladores: Babel, TypeScript...
+- var x const x let
+- Arrow Function
+- Template literals
+- Default Parameters
+
+* var:
+  -> escopo amplo
+
+* let:
+  -> escopo reduzido
+
+* const:
+  -> não é possível atribuir novo valor à váriavel
+
+* arrow function:
+  -> sintaxe mais simples
+  -> ex: const makeBeer = (param) => ''.repeat(qty)
+  -> retorno implícito
+
+* template literals:
+  -> `${}`
+  -> interpolar e interpretar variáveis
+
+* default parameters:
+  -> assumir valor padrão
+
+*** 'use strict':
+  -> JS acusa mais erros

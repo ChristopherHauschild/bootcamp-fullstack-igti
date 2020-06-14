@@ -1,0 +1,7 @@
+2020-06-03T11:26:21.118Z [my-bank-api] info: API Started
+2020-06-03T11:27:43.814Z [my-bank-api] info: POST /account - {"id":9,"name":"Marcelo Dias Novo","balance":200}
+2020-06-03T11:27:57.280Z [my-bank-api] info: GET /
+2020-06-03T11:28:07.705Z [my-bank-api] info: POST /transaction - [object Object]
+2020-06-03T11:28:53.479Z [my-bank-api] info: API Started
+2020-06-03T11:28:57.405Z [my-bank-api] error: GET /:id - Saldo insuficiente
+2020-06-03T11:29:06.683Z [my-bank-api] info: POST /transaction - [object Object]

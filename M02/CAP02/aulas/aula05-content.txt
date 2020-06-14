@@ -1,0 +1,39 @@
+- Rotas
+  -> método all: possível capturar todos os mét HTTP para o mesmo
+     endpoint
+
+  -> o caminho p/ uma rota pode ser string, padrão de string ou
+     expressão regular
+  
+  -> padrões:
+     - ?, +, *, {}
+     - '-' e '.' nao tem tratamento especial
+  
+* ? indica que a letra imediatamente anterior a ele é opcional
+* + indica que a l.i.a pode ser repetida diversas vezes naquela posição
+* * indica que naquela posicao pode ocorrer qualquer string
+* {} indica que a string dentro do parêntese será tratada como uma unidade
+
+- Next
+   -> passa para próxima execução
+
+- Route
+   -> rotas que pertencem ao mesmo endereço, mudando apenas o tipo
+      de metódo HTTP podem ser agrupadas sob o método 'route'
+
+- Middlewares
+   -> funçoes que tem acesso à:
+      obj de requisição (req)
+      obj de resposta (res)
+      próx funçao de middleware no ciclo da req e res do app (next)
+
+   -> podem executar qualquer código, alterar objetos de solicitaçao,
+      encerrar o ciclo (end) e chamar a próx funçao de middleware na pilha
+
+   -> podem interceptar chamadas em específico ou qualquer chamada
+   -> executadas quando determinada rota é atingida
+
+- Tratamento de erros
+   -> express permite fazer tratamento adicionando 4° parametro na funcao middleware
+   -> configurado por ultimo na instancia do express
+   -> é possivel mais funcoes de erro utilizando next

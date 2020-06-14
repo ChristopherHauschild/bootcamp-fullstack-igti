@@ -1,0 +1,18 @@
+- Node.js Event Loop
+  -> tudo que acontece no Node é uma reaçao a um evento
+  -> uma transiçao processada passa por vários callbacks
+  -> trabalha com assincronismo
+  -> Node envia operaçoes para outra thread do sistema
+  -> após executar tarefa é enviada para a Task Queue
+
+* Event Loop:
+  -> coordena a execuçao das tasks e callbacks
+  - loop infinito, que a cada iteraçao verifica se existem novos
+    eventos em na fila de eventos
+
+  - EventEmitter: responsável por emitir eventos
+
+  - quando evento é emitido ele é enviado para a fila de eventos
+    para que o Event Loop possa executá-lo e depois retornar
+    seu callback
+  

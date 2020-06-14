@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 10px;
+  padding-top: 0px;
+  background: linear-gradient(to right, #fff, #0002);
+}
+
+h3 {
+  font-size: 2.2rem;
+  text-align: center;
+  text-transform: uppercase;
+
+  margin-bottom: 40px;
+}
+
+h4 {
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  color: #0009;
+  text-align: center;
+}
+
+form {
+  display: flex;
+}
+
+#inputFind {
+  padding-left: 10px;
+}
+
+#btnFind {
+  margin-left: 10px;
+  box-shadow: 2px 2px 1px 0 #0006;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+
+  border-radius: 50%;
+  box-shadow: 1px 2px 2px 0px #0004;
+}
+
+.users-container {
+  display: flex;
+
+  margin-top: 40px;
+}
+
+h5 {
+  text-align: center;
+  text-justify: center;
+  padding-top: 10px;
+  margin-bottom: 40px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+
+  padding: 10px;
+  padding-left: 5px;
+  width: auto;
+  border-radius: 1.5px;
+  box-shadow: 2px 2px 2px 0px #0005;
+  background-color: #0001;
+}
+
+.statistic p {
+  font-size: 1.2rem;
+  border-radius: 1.5px;
+  box-shadow: 2px 2px 2px 0px #0005;
+  background-color: #0001;
+  padding: 10px;
+  width: 100%;
+}
+
+.userList {
+  width: 50%;
+  background-color: #0001;
+  border-radius: 1px;
+  box-shadow: 1.5px 1px 2.5px 0px #26a69a;
+  padding: 5px 20px 15px 20px;
+  margin-right: 14px;
+  padding-bottom: 40px;
+}
+
+.statisticList {
+  width: 50%;
+  background-color: #0001;
+  border-radius: 1px;
+  box-shadow: 1.5px 1px 2.5px 0px #26a69a;
+  padding: 5px 20px 15px 20px;
+  max-height: 390px;
+}

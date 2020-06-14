@@ -1,0 +1,51 @@
+- Requisições HTTP com JS
+- Comando fetch
+- Promises
+- Async/await
+
+* fetch:
+  -> requisições HTTP
+  -> trabalha internamente com promises
+
+  -> o primeiro retorno são dados binários
+  -> em geral são convertidos para JSON, que retorna outra promise
+
+  -> .then() -> captura com sucesso
+  -> .catch() -> captura com erro
+
+* promises:
+  -> construções que retornam algo no futuro
+
+  -> execução pode ser resolvida(then) ou rejeitada(catch)
+
+  -> resolve parcialmente callback hell
+
+  -> ... new Promise((resolve, reject) => {
+    ==== LÓGICA ====
+  })
+
+* async/await:
+  -> açúcar sintático (syntax sugar) sobre promises
+  -> melhoram legibilidade do código
+  -> impressão de código sincrono
+
+  -> deve-se decorar a função com async
+  -> toda instrução relacionada à promise deve ser precidade de await
+
+ex:
+
+function doFetch() {
+  fetch('https://api.github.com/users/rrgomide')
+    .then(res => {
+      // primeiro traz dados binários e segundo retorna promise com os dados
+      res.json().then(data => {
+        showData(data)
+      })
+    })
+}
+
+async function doFetchAsyncAwait() {
+  const res = await fetch('https://api.github.com/users/rrgomide')
+  const json = await res.json()
+  console.log(json)
+}

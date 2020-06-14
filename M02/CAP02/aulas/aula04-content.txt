@@ -1,0 +1,12 @@
+- Introduçao ao ExpressJS
+- HelloWorld e configurações iniciais
+
+* Express:
+  -> framework web para o Node.js
+  -> estruturaçao da aplicaçao
+  -> desenvolvimento de aplicaçoes mais rápido
+  -> facilita o roteamento da aplicaçao, baseado nos métodos HTTP e URLs
+
+* ECMAScript 6
+  - habilitar flag node -experimental-modules src/app.js
+  - incluir "type": "module" no package.json

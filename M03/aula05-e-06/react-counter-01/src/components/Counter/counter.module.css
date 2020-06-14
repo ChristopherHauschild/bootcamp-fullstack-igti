@@ -1,0 +1,9 @@
+.counterContainer {
+  padding: 10px;
+}
+
+.counterValue {
+  padding: 10px;
+  font-size: 1.5rem;
+  font-family: Consolas, monospace;
+}

@@ -1,0 +1,29 @@
+- Introdução à programação assíncrona com JS
+- Operações lentas
+- Event Loop
+- Callbacks
+
+* operações lentas:
+  -> requisição de dados à APIs
+  -> processamento intenso de dados
+  -> comunicação com banco de dados (Node.js)
+
+* é importante que o JS não espere o término de instruções lentas
+
+* event loop
+  -> funções a serem executada ficam uma pilha lógica de
+  invocações (call stack)
+  
+  -> quando a função utiliza Web APIs precisa passar pelo
+  event loop
+  
+  -> executa uma função por vez e faz a orquestração que
+  permite função assincrona
+
+  -> funções que usam Web APIs possuem callbacks
+
+* callbacks
+  -> funções passadas por parâmetro
+
+* programação assincrona:
+    -> postergar instruções lentas e seguir rodando aplicação

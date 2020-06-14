@@ -1,0 +1,7 @@
+- LifeCycle de Class Components
+
+- componentDidMount
+
+- componentDidUpdate
+
+- componentWillUnmount

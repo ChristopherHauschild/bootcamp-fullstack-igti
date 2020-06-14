@@ -1,0 +1,19 @@
+- Node.js
+  -> surgiu como resolução para o problema de arquiteturas bloqueantes
+     - (Blocking-Thread): espera requisição terminar para rodas as demais
+  
+  -> arquitetura non-blocking-thread
+  
+  -> operações single-thread
+
+  -> utiliza bastante a programação assíncrona, com auxílios das funções
+     de callback (executa quando processo inicial finalizar) do JS
+
+  -> utiliza o motor JS V8 (Google), sendo possível executar código JS no servidor
+
+  -> criação ligada com a crescente utilizaçao das SPAs
+
+  -> pode ser utilizado com Electron e apps Real-Time
+
+  -> não muito recomendado para app com algoritmos complexos e consomem muita CPU
+     - pode ser contarnado com a utilizaçao de Workers (cria outra instância do V8)

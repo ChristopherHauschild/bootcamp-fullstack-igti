@@ -1,0 +1,10 @@
+- Funões setTimeout/setInterval
+
+* setTimeout:
+  -> postergar a execução de uma função
+  -> tempo de atraso em milisegundos
+
+* setInterval:
+  -> repete execução a cada x milisegundos
+  -> pode ser cancelada com clearInterval
+  -> para isso deve-se guardar a referência em uma variável

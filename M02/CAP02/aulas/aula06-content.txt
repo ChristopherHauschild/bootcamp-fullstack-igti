@@ -1,0 +1,30 @@
+- Gravação de logs
+
+- Winston
+  -> suporta vários tipos de transporte
+
+  -> permite configuraçao de formatos de logs
+
+  -> suporta 7 níves de log:
+    error: 0
+    warn: 1
+    info: 2
+    http: 3
+    verbose: 4
+    debug: 5
+    sill: 6
+
+- Servindo arquivos estáticos
+
+  -> express.static:
+    - recebe como param o diretório raiz de onde estão localizados os
+      partindo da raiz da aplicação
+    
+    - pode ser utilizado mais de uma vez
+    
+    - pode ser criar um diretório virtual, passando como param o
+      nome desejado
+  
+  ex: app.use("/imagens", express.static("public"));
+
+
