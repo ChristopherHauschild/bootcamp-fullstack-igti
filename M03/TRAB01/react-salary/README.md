@@ -1,4 +1,4 @@
-# <p align="center> React Salary :money_with_wings: </p>
+# <p align="center"> React Salary :money_with_wings: </p>
   
 <div align="center">
   <img src="" width="900px" />
