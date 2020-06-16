@@ -7,7 +7,9 @@ import css from './App.module.css'
 function App() {
   return (
     <div className={`${css.back} container`}>
-      <h3 className={css.title}>React Salary</h3>
+      <h3 className={css.title}>
+        React Salary
+      </h3>
       
       <Salary />
     </div>
