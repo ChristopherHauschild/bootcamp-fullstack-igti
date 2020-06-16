@@ -4,8 +4,9 @@
   <img src="" width="900px" />
 </div>
   
-  A seguinte aplicação foi desenvolvida durante o terceiro módulo do Bootcamp Desenvolvimento Fullstack, disponibilizado pelo Instituto de Gestão e Tecnologia da Informação - IGTI, o qual tem com tema o desenvolvimento Frontend com React. A aplicação tem por objetivo fixar o conceito de reatividade do React, além de trabalhar com Class Components.
-  Para a construção da interface utilizou-se o Materialize CSS.
+  A seguinte aplicação foi desenvolvida durante o terceiro módulo do Bootcamp Desenvolvimento Fullstack, disponibilizado pelo Instituto de Gestão e Tecnologia da Informação - IGTI, o qual tem com tema o desenvolvimento Frontend com React, e tem por objetivo fixar o conceito de reatividade do React, além de trabalhar com Class Components.
+  
+Para a construção da interface utilizou-se o Materialize CSS.
   
 ## Tecnologias utilizadas: :computer:
 <ul>
