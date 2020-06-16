@@ -4,6 +4,7 @@
   
 Para a construção da interface utilizou-se o Materialize CSS.
 
+
 <div align="center">
   <img src="https://github.com/ChristopherHauschild/bootcamp-fullstack-igti/blob/master/M03/TRAB01/react-salary/RS.gif?raw=true" width="900px" />
 </div>
