@@ -1,0 +1,13 @@
+.back {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 10px;
+
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 2px 2px 3px 0px rgb(97, 218, 251);
+}
+
+.title {
+  text-align: center;
+}

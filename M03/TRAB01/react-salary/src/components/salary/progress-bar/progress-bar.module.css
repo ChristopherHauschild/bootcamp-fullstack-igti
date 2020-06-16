@@ -1,0 +1,67 @@
+.bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: auto;
+  height: 15px;
+  margin: 20px 20px 20px 20px;
+
+  box-shadow: 2px 2px 1px 0px lightgray;
+  border-radius: 2px;
+}
+
+.text {
+  color: #fff;
+}
+
+.containerLabel {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+
+  margin-top: 15px;
+}
+
+.labelBar {
+  margin-left: 20px;
+}
+
+.squareOrange {
+  margin-top: -10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  max-width: 10px;
+  padding: 10px 7.5px;
+  height: 5px;
+
+  font-size: 0.1rem;
+  color: #e67e22;
+  background-color: #e67e22;
+}
+
+.squareRed {
+  margin-top: -10px;
+  margin-left: 8px;
+  margin-right: 5px;
+  max-width: 10px;
+  padding: 10px 7.5px;
+  height: 5px;
+
+  font-size: 0.1rem;
+  color: rgb(153, 42, 42);
+  background-color: rgb(153, 42, 42);
+}
+
+.squareBlue {
+  margin-top: -10px;
+  margin-left: 8px;
+  margin-right: 5px;
+  max-width: 10px;
+  padding: 10px 7.5px;
+  height: 5px;
+
+  font-size: 0.1rem;
+  color: #16a085;
+  background-color: #16a085;
+}

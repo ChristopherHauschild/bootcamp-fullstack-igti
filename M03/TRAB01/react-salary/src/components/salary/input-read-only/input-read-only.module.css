@@ -1,0 +1,104 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 15px;
+  padding: 20px;
+}
+
+.inputItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  min-width: 240px;
+  max-width: 240px;
+  height: auto;
+
+  margin: 5px 15px;
+  margin-bottom: 30px;
+  padding: 12px;
+  padding-top: 0px;
+  border-radius: 5px;
+  border: 0.5px solid lightgray;
+  box-shadow: 2px 2px 1px 0px rgb(129, 129, 129);
+}
+
+.titleItem {
+  align-self: start;
+
+  width: 100%;
+  margin-right: 10px;
+  padding-bottom: 5px;
+  border-bottom: 0.1px solid rgb(235, 235, 235);
+
+  color: black;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+.icon {
+  margin: 8px 0px;
+  font-size: 5rem;
+}
+
+.backRed {
+  color: rgb(153, 42, 42);
+}
+
+.backAutoItalic {
+  font-style: italic;
+  text-align: center;
+}
+
+.backRedItalic {
+  font-style: italic;
+  color: rgb(153, 42, 42);
+
+  text-align: center;
+}
+
+.shadowRed {
+  box-shadow: 2px 2px 2px 0px rgb(153, 42, 42);
+}
+
+.backOrange {
+  color: #e67e22;
+}
+
+.backOrangeItalic {
+  font-style: italic;
+  color: #e67e22;
+
+  text-align: center;
+}
+
+.shadowOrange {
+  box-shadow: 2px 2px 1px 0px #d6843c;
+}
+
+.backBlue {
+  color: #16a085;
+}
+
+.backBlueItalic {
+  font-style: italic;
+  color: #16a085;
+
+  text-align: center;
+}
+
+.shadowBlue {
+  box-shadow: 2px 2px 2px 0px #16a085;
+}
+
+.backGrey {
+  color: black;
+}
