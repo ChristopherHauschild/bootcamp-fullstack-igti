@@ -1,4 +1,4 @@
-# <p align="center">:money_with_wings: &nspb; React Salary &nspb; :money_with_wings: </p>
+# <p align="center">:money_with_wings: &nbsp; React Salary &nbsp; :money_with_wings: </p>
   
 <div align="center">
   <img src="https://github.com/ChristopherHauschild/bootcamp-fullstack-igti/blob/master/M03/TRAB01/react-salary/RS.gif?raw=true" width="900px" />
