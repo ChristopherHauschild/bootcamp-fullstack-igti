@@ -1,6 +1,6 @@
 # Bootcamp Desenvolvedor Full Stack :brazil:
 
-<p style="text-align: justify">
+<p style="text-align: center">
 Programa de Bootcamp focado no Desenvolvimento Full Stack disponibilizado pela Instituição de Gestão e Tecnologia da Informação - IGTI, reconhecida pelo MEC desde 2006. O programa tem por objetivo principal oferecer uma formação prática e intensiva que habilite o profissional para atuar
 como desenvolvedor Full Stack. Para atingir esses obejtivos a IGTI conta com um grupo de profissionais capacitados e especializados na área de ensino das tecnologias.
 Cada módulo, a partir do Módulo 2, será dividido em duas semanas, sendo a primeira para desenvolvimento do conteúdo prático, e a segunda para entrega do desafio de cada módulo.
