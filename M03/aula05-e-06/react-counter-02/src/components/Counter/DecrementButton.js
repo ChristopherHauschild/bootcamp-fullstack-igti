@@ -1,20 +1,19 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class DecrementButton extends Component {
-  handleButtonClick = () => {
-    this.props.onDecrement('-')
+export default function DecrementButton({ onDecrement }) {
+
+  const handleButtonClick = () => {
+    onDecrement('-')
   }
-  
-  render() {
-    return (
-      <div>
-        <button
-          onClick={this.handleButtonClick}
-          className="waves-effect waves-light btn red darken-4"
-        >
-          -
-        </button>
-      </div>
-    )
-  }
+
+  return (
+    <div>
+      <button
+        onClick={handleButtonClick}
+        className="waves-effect waves-light btn red darken-4"
+      >
+        -
+      </button>
+    </div>
+  )
 }
