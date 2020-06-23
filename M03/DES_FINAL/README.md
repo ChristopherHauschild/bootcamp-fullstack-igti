@@ -1,8 +1,9 @@
 # <p align="center">:moneybag: React - Juros Compostos :moneybag:</p>
 
-  Aplicação desenvolvida durante o desafio final do módulo 'Frontend com React', do Bootcamp Desenvolvimento Fullstack, disponibilizado pelo IGTI. Durante a segunda metade do módulo, teve-se como objetivo principal trabalhar os Hooks do React.
-  Esta aplicação consiste numa calculadora de juros, que calcula e retorna ao usuário o montante original transformado conforme a taxa de juros e o período e meses.
-  <br /><br />
+<p align="justify">
+Aplicação desenvolvida durante o desafio final do módulo 'Frontend com React', do Bootcamp Desenvolvimento Fullstack, disponibilizado pelo IGTI. Durante a segunda metade do módulo, teve-se como objetivo principal trabalhar os Hooks do React.
+Esta aplicação consiste numa calculadora de juros, que calcula e retorna ao usuário o montante original transformado conforme a taxa de juros e o período e meses.
+</p> <br /><br />
 
 <div align="center">
   <img src="" width="1000px" />
