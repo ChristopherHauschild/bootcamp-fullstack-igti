@@ -1,51 +1,32 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-export default function Form(props) {
-  const {
-    onValueChange,
-    onMonthlyInterestChange,
-    onPeriodChange,
-    initialValue,
-    monthlyInterest,
-    period
-  } = props
+import Installments from './Installments'
+
+export default function Form({ onChangeInput }) {
+  const [initialValue, setInitialValue] = useState(1000)
+  const [monthlyInterest, setMonthlyInterest] = useState(1)
+  const [period, setPeriod] = useState(1)
 
   const handleFormSubmit = (event) => {
     event.preventDefault()
-    console.log('submit')
   }
 
-  const handleInputValueChange = (event) => {
-    const newValue = event.target.value
-    console.log(`inputValue: ${newValue}`)
-
-    onValueChange(newValue)
-  }
-
-  const handleInputMonthlyInterestChange = (event) => {
+  const handleChangeInput = (event) => {
     const newMonthlyInterest = event.target.value
-    console.log(`inputMonthlyInterest: ${newMonthlyInterest}`)
-    
-    onMonthlyInterestChange(newMonthlyInterest)
-  }
-
-  const handleInputPeriodChange = (event) => {
-    const newPeriod = event.target.value
-    console.log(`inputPeriod: ${newPeriod}`)
-
-    onPeriodChange(newPeriod)
+    setMonthlyInterest(newMonthlyInterest)
+    onChangeInput(newMonthlyInterest)
   }
 
   return (
     <div style={styles.container}>
       <form onSubmit={handleFormSubmit} style={styles.form}>
-        
+
         <div className='input-field' style={styles.inputDiv}>
           <input
             id='inputValue'
             type='number'
             value={initialValue}
-            onChange={handleInputValueChange}
+            onChange={(event) => setInitialValue(event.target.value)}
             min={100}
             max={100000}
             step={100}
@@ -61,7 +42,7 @@ export default function Form(props) {
             id='inputMonthlyInterest'
             type='number'
             value={monthlyInterest}
-            onChange={handleInputMonthlyInterestChange}
+            onChange={handleChangeInput}
             min={-12}
             max={12}
             step={0.1}
@@ -76,7 +57,7 @@ export default function Form(props) {
             id='inputPeriod'
             type='number'
             value={period}
-            onChange={handleInputPeriodChange}
+            onChange={(event) => setPeriod(event.target.value)}
             min={1}
             max={36}
           />
@@ -86,6 +67,12 @@ export default function Form(props) {
         </div>
 
       </form>
+
+      <Installments
+        initialValue={initialValue}
+        monthlyInterest={monthlyInterest}
+        period={period}
+      />
     </div>
   )
 }
@@ -102,7 +89,9 @@ const styles = {
     alignItems: 'center',
     justifyContent: 'space-between',
 
-    margin: '20px 20px',
+    margin: '0px 20px',
+    marginTop: '30px',
+    marginBottom: '0px',
     padding: '10px'
   },
 
