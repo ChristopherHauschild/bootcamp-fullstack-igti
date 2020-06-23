@@ -6,7 +6,7 @@ Esta aplicação consiste numa calculadora de juros, que calcula e retorna ao us
 </p> <br /><br />
 
 <div align="center">
-  <img src="" width="1000px" />
+  <img src="https://github.com/ChristopherHauschild/bootcamp-fullstack-igti/blob/master/M03/DES_FINAL/RJC.gif?raw=true" width="1000px" />
 </div>
 
 <hr>
