@@ -1,4 +1,4 @@
-# <p align="center">:moneybag: &nbsp; React - Juros Compostos &nbsp; :moneybag:</p>
+# <p align="center">:moneybag: &nbsp; React - Juros Compostos &nbsp;:moneybag:</p>
 
 <p align="justify">
 Aplicação desenvolvida durante o desafio final do módulo 'Frontend com React', do Bootcamp Desenvolvimento Fullstack, disponibilizado pelo IGTI. Durante a segunda metade do módulo, teve-se como objetivo principal trabalhar os Hooks do React.
