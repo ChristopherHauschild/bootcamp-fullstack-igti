@@ -1,7 +1,6 @@
 import React from 'react'
 
 export default function Toggle(props) {
-
   const handleChange = (event) => {
     const { onToggle } = props
 
