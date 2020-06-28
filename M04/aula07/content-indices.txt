@@ -1,0 +1,36 @@
+- Índices no MongoDB
+  - estruturas de dados especiais
+  - armezenamento em ordem
+
+// GET
+
+- db.COLLECTION.getIndexes()
+
+
+// CREATE
+
+- db.COLLECTION.createIndex({ campo: -1 })
+  - retorna campo com nome "campo_-1"
+
+- db.COLLECTION.createIndex({ campo:"text"})
+
+  - ex: db.livros.createIndex({ biografia:"text" })
+    - atribui indice text ao campo biografia para facilitar filtros
+    
+    db.livros.find({$text: {$search: "escritora jornalista"}}, {_id: 1})
+    - retorna id de docs com biografia escritora jornalista
+
+    db.livros.find({$text: {$search: "escritora jornalista"}}, {_id: 1, score: {$meta: "textScore"}}).sort({score: {$meta: "textScore"}})
+    - retorna id e percentual de correspondencia de docs com biografia escritora jornalista
+
+
+// DROP
+
+- db.COLLECTION.dropIndex("name_-1")
+  - exclui pelo nome do indice
+
+- db.COLLECTION.dropIndex({name: -1})
+  - exclui pelo campo do indice
+
+- db.COLLECTION.dropIndexes()
+  - exclui todos os indices

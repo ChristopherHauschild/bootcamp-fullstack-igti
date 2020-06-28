@@ -1,0 +1,25 @@
+- Instalação do MongoDB e MongoDB Compass
+- Contextualização
+- SQL x NoSQL
+- Criação de coleções
+
+* SQL: relacional, processamento de transações, concorrência.
+  -> tabelas (linhas e colunas)
+
+* NoSQL: não relacional, alta performance e escalabilidade.
+  -> Not Only SQL
+  -> Key-Value, Column-Family, Graph e Document
+
+* MongoDB:
+  -> não possui schema definido
+  -> não relacional
+
+  -> Formato BSON (visualização em JSON)
+
+  Estrutura:
+    -> Banco de dados
+    -> Coleções
+    -> Documentos
+    -> Campos
+
+* db.createCollection(name, options)

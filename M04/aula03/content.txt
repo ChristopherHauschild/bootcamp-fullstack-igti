@@ -1,0 +1,57 @@
+- Crud no MongoDB (retrieve)
+
+- db.COLLECTION.find()
+  - retorna todos os documentos
+
+- db.COLLECTION.findOne()
+  - retorna o primeiro registro conforme filtros
+
+- db.COLLECTION.find(query, projection)
+  - query -> quais documentos serão filtrados
+  - projection -> quais campos dos documentos serão projetados
+    -> 0 ou 1
+
+  - ex: db.student.find({}, {_id: 0, name: 1, value: 1})
+
+- db.COLLECTION.find(query, projection).limit(3).skip(2)
+  - limit -> limita quantidade de documentos retornados
+  - skip -> define quantos elementos serão 'pulados'
+
+- db.COLLECTION.find(query, projection).sort({ name: 1 })
+  - ordenar documentos por propriedade
+  - 1 crescente | -1 decrescente
+  - .sort({ filterA: 1, filterB: -1 })
+
+- db.COLLECTION.find().pretty()
+  - retorna uma melhor visualização/organização
+
+// query
+- db.COLLECTION.find({ subject: 'Fisica'}, {_id: 0}).pretty()
+  - retorna docs que possum key subject === Fisica
+
+$and: [{ subject: 'Historia' }, { type: 'Trabalho Pratico' }]
+  - db.COLLECTION.find({ $and: [{ subject: 'Historia' }, { type: 'Trabalho Pratico' }]}, {_id: 0}).pretty()
+
+
+$not: 
+  - inverte criterio da query
+
+$nor: [{ subject: 'Historia' }, { type: 'Trabalho Pratico' }]
+  - todos elementos que nao atendem criterios passados
+
+#or: [{ subject: 'Historia' }, { subject: 'Matematica' }]
+
+
+// operadores de comparacao
+
+$eq -> igual
+$gt -> maior que
+$gte -> maior ou igual
+$inverte
+$lt -> menor que
+$lte -> menor ou igual
+$ne -> diferente
+$Nin
+
+- db.student.find({ value: {$gt: 20}}, {_id: 0}).pretty()
+- db.student.find({ subject: {$in: ["Quimica", "Matematica"]}}, {_id: 0}).pretty()

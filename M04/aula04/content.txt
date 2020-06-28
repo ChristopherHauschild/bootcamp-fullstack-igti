@@ -1,0 +1,31 @@
+- Crud no MongoDB (update)
+
+- db.COLLECTION.updateOne(query, update, options)
+  - updateOne -> atualiza primeira ocorrencia
+
+  - query -> documentos filtrados
+  - update -> dados que serão atualizados nos documentos filtrados
+  - options -> adicionais opcionais
+
+  - db.COLLECTION.updateOne({ name: 'Antônio Costa' }, { $set: {type: 'Prova Final'} })
+  - db.COLLECTION.updateOne({ name: 'Antônio Costa' }, { $inc: {value: 10} })
+    - $set -> altera ou cria
+    - $inc -> incrementa a partir de um valor
+
+- db.COLLECTION.updateMany(query, update, options)
+  - updateMany -> atualiza multiplas ocorrencias
+
+  db.COLLECTION.updateMany({ type: 'Trabalho Pratico' }, { $inc: { value: 2 } })
+
+  db.student.updateMany({}, { $currentDate: { lastModify: true, timestamp: {$type: "timestamp"} } })
+  - atualizar todos os documentos da coleção studente adicionando dois novos campos
+
+  db.student.updateMany({}, {$unset: {lastModify:1}})
+
+  - $unset -> remove um campo
+
+
+- db.COLLECTION.replaceOne(query, update, options)
+  - replaceOne -> substitui todo documento por um novo
+
+  db.student.replaceOne({ _id: ObjectId("5ef7c5705043c34b20713675")}, { name: "Joao de Souza", subject: "Historia", type: "Prova Final", value: "15.7", timestamp: "-"})

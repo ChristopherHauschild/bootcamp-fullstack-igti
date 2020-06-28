@@ -1,0 +1,26 @@
+- Modelagem no MongoDB
+
+
+Modelo NoSQL
+
+   Banco
+     |
+  Coleções
+     |
+ Documentos
+
+
+ - Tipos de Relacionamento
+  -> Um para Um (veic, placa)
+  -> Um para Muitos (cidade, cep)
+  -> Muitos para Muitos (aluno, aulas)
+
+
+- Modelagem
+  -> Referência (normalizada) - referenciar documento de uma coleção em outra pelo ID.
+     - evita duplicação, dificilmente atinge limite de tamanho dos docs
+     - necessário garantir atomicidade transacional, para manter consistência
+  
+  -> Documentos embutidos (não-normalizada) - todas as referencias englobadas dentro de um único documento
+     - subdocumentos
+     - evita repetir consultas

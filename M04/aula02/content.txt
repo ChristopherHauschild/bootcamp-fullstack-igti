@@ -1,0 +1,16 @@
+- Crud no MongoDB (insert)
+
+// retornam ObjectId dos docs inseridos
+
+- db.COLLECTION.insertOne({ key: "value" })
+  -> insere um documento na base de dados
+
+- db.student.insertMany([{name: "Pedro Carlos", subject: "Matematica", type: "Trabalho Prático", value: 15.4}, {name: "Bia Kisses", subject: "Portugues", type: "Trabalho Prático", value: 20}])
+  -> insere multiplos documentos na base de dados
+
+// retorna WriteResult (01) ou BulkWriteResult (02+)
+
+- db.student.insert({name: "João da Cruz", subject: "Historia"})
+- db.student.insert([{name: "Antônio Costa", subject: "Historia", type: "Trabalho Pratico", value: 17.5}, {name: "Barbara Rodrigues", subject: "Fisica", type: "Trabalho Pratico", value: 30}])
+  -> insere um ou mais documentos na base de dados
+

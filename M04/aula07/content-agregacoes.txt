@@ -1,0 +1,58 @@
+- Agregacoes no MongoDB
+
+- db.COLLECTION.aggregate([
+  {$project: {}},
+  {$match: { campo: 'X'}},
+  {$group: {_id: "$campo", total: { $sum: "#campo"}}},
+  {$sort: {}},
+  {$skip: N},
+  {$limit: N}
+])
+
+- project -> quais campos serão retornados na consulta
+- match -> filtrar os docs com base nos campos determinado
+
+// soma de todas as notas de student lançadas no campo value
+
+db.student.aggregate([
+  {$group: {_id: null, total: { $sum: "$value"}}}
+])
+
+// soma das notas de docs com subject Historia
+// agrupando por subject e type
+
+db.student.aggregate([
+  {$match: { subject: "Historia" }},
+  {$group: {_id: {subject: "$subject", type: "$type"}, total: { $sum: "$value"}}}
+])
+
+// soma das notas em value, agrupando docs por subject e type
+// ordenando pelo id
+
+db.student.aggregate([
+  {$group: {_id: {subject: "$subject", type: "$type"}, total: { $sum: "$value"}}},
+  {$sort: {_id: 1}}
+])
+
+
+// COUNT
+
+db.COLLECTION.count(query)
+  - retorna quantidade de docs em uma coleção a partir de determinado filtro
+
+db.student.count({subject: "Portugues", value: {$gt: 10}})
+  - retorna quantidade de docs com subject Portugues e value maior que 10
+
+// COUNTDOCUMENTS
+
+db.student.countDocuments({ subject: "Portugues" })
+  - tem maior precisão no retorno da quantidade
+
+
+// DISTINCT
+
+db.COLLECTION.distinct(field, query)
+  - retorna elementos distintos, conforme campo passado
+
+db.student.distinct("subject").pretty()
+  - retorna subject's distintos

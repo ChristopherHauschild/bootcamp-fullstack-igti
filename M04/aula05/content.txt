@@ -1,0 +1,15 @@
+- Crud no MongoDB (delete)
+
+- db.COLLECTION.deleteOne(query)
+  - query -> quais registros devem ser selecionados
+  - deleta primeiro documento que bate com o filtro
+
+  - db.student.deleteOne({ _id: ObjectId("") })
+
+- db.COLLECTION.deleteMany(query)
+  - delete todos documentos que batem com o filtro
+
+  - db.student.deleteMany({ subject: 'Historia' })
+
+// PARA DELETAR UMA PROP DO DOCUMENTO EM ESPECIFICO
+// UTILIZA-SE O $unset DO MÉTODO UPDATE

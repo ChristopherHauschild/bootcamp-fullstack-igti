@@ -1,0 +1,34 @@
+- Comandos em massa MongoDB (BulkWrite)
+- Engloba comandos CRUD (insertOne, updateOne, updateMany, deleteOne, deleteMany, replaceOne)
+
+- Recebe operações em um array
+
+- options: ordem de execução das operações ...
+  ex: { ordered: false }
+
+- db.COLLECTION.bulkWrite([operation1, operation2, ...], options)
+
+- db.student.bulkWrite([ {insertOne: {
+  "document" : { name: "Thiago Pires", subject: "Fisica", type: "Prova Final", value: 10, timestamp: "-" }
+  }},
+  
+  {insertOne: {
+  "document" : { name: "Carla Soares", subject: "Portugues", type: "Trabalho Pratico", value: 14, timestamp: "-" }
+  }},
+
+  {updateOne: {
+    "filter" : {name: "Pedro Carlos"},
+    "update" : {$set: { subject: "Quimica" }}
+  }},
+
+  {deleteOne: {
+    "filter" : {name: "Bia Kisses", subject: "Portugues"}
+  }},
+
+  {replaceOne: {
+    "filter" : {_id: ObjectId("5ef7c61a5043c34b20713677")},
+    "replacement" : {name: "Barbara Alves", subject: "Portugues", type: "Trabalho Pratico", value: 40, timestamp: "-"} 
+  }}
+  ])
+
+
