@@ -61,6 +61,10 @@ Tudo isso para que ao final do Bootcamp o aluno possa estar apto a desenvolver e
  <li> Criação de um pequeno projeto passo-a-passo com React </li>
 </ul>
 
+<p align="center">
+  <a href="https://github.com/ChristopherHauschild/bootcamp-fullstack-igti/tree/master/M03/TRAB01/react-salary">Trabalho Prático</a> | <a href="https://github.com/ChristopherHauschild/bootcamp-fullstack-igti/tree/master/M03/DES_FINAL">Desafio Final</a>
+</p>
+
 <h3> Módulo 4 - Persistência de dados, versionamento de código e implantação </h3>
 <ul list-style:none>
   <li> Introdução ao MongoDB. Utilização do serviço mLab. Integrando a API ao MongoDB no
