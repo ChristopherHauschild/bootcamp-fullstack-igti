@@ -1,0 +1,11 @@
+- MongoDB Atlas (mLab)
+  - Database as a Service (DaaS)
+  - Sandbox, Shared, Dedicated
+
+  - Whitelist: IP's com acesso ao Cluster
+
+- Integração do MongoDB Atlas ao Node
+
+- Mongoose
+
+- API CRUD com Mongoose
