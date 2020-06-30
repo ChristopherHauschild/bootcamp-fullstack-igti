@@ -1,0 +1,69 @@
+- Versionamento de Código
+  - organização, comunicação, manutenção, segurança
+
+- Instalação e Introdução ao Git
+  - VSC: version control system
+
+  - git config
+    --system: todos os usuários
+    --global: usuário da máquina
+    --local: projeto atual
+    --list --show-origin: retorna pasta de configuração do git e dados pessoais
+    core.editor "": define editor de texto padrão
+    color.ui "": configurações de cores nas linhas de comando
+
+- Fluxo de Operação no Git:
+  Workspace -> Index (Área Temporária) -> Head (Repositório Local) -> Repositório Remoto
+
+  commit -a: trasmite arquivos para Head
+  
+  add: transmite arquivos para Index
+  commit: transmite arquivos em Index para Head
+
+  checkout HEAD: retorna arquivos de HEAD para Workspace
+  checkout: retorna o que estava salvo automaticamente (Index)
+
+  diff: compara códigos do Workspace com códigos temporários (Index)
+  diff HEAD: compara códigos do Workspace com o que está em HEAD
+
+  push: trasmite arquivos de HEAD para Repositório Remoto
+  pull: trasmite do Repositório Remoto para o Workspace
+
+  * é necessário realizar o pull para poder realizar o push
+
+  fetch: transmite do Repositório Remoto para o HEAD
+
+- Principais comandos:
+  -> git init: inicializa repositório git no projeto
+
+  -> git clone: clonar repositório existente no projeto
+
+  -> git add *: transfere todos os arquivos do projeto para área temporária
+    -> git add -A: transfere todos os arquivos modificados para a área temporária
+
+  -> git commit: comita arquivos no repositório local
+    -> git commit -m "..."
+    -> git commit --amend -m "...": revisão do commit
+
+  -> git status: retorna mudanças para serem commitadas
+
+  -> gitk: visualizar graficamente as mudanças
+
+  -> git branch: retorna branchs disponíveis no repositório
+    -> git checkout -b "newBranch": cria novo branch
+
+    -> git checkout master: altera para branch master
+
+    -> git merge outroBranch: transmite arquivos commitados de outroBranch para o branchAtual
+
+  -> git branch -d newBranch: exclui branch
+
+  -> git log: visualizar logs do projeto  
+
+
+- GitHub
+  - variáveis de ambiente
+    -> .env
+
+  - fazer push de um projeto para um novo repositório.
+    -> git add remote origin

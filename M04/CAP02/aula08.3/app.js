@@ -3,11 +3,13 @@ import express from 'express'
 
 import { studentRouter } from './routes/studentRouter.js'
 
+require('dotenv').config()
+
 // Conexão ao MongoDB através do mongoose
 (async () => {
   try {
     await mongoose.connect(
-      'mongodb+srv://chris_:7105@igti-b6daz.mongodb.net/grades?retryWrites=true&w=majority',
+      `mongodb+srv://${process.env.USERDB}:${process.env.PSWDB}@igti-b6daz.mongodb.net/grades?retryWrites=true&w=majority`,
       {
         useNewUrlParser: true,
         useUnifiedTopology: true
