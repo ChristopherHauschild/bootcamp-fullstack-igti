@@ -3,11 +3,12 @@ import express from 'express'
 
 import { accountsRouter } from './routes/accountsRouter.js'
 
+require('dotenv').config()
 // Conexão ao MongoDB através do mongoose
 (async () => {
   try {
     await mongoose.connect(
-      'mongodb+srv://chris_:7105@igti-b6daz.mongodb.net/my-bank-api?retryWrites=true&w=majority',
+      `mongodb+srv://${process.env.USERDB}:${process.env.PSWDB}@igti-b6daz.mongodb.net/my-bank-api?retryWrites=true&w=majority`,
       {
         useNewUrlParser: true,
         useUnifiedTopology: true,
