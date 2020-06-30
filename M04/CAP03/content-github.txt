@@ -1,0 +1,32 @@
+- GitHub
+  -> variáveis de ambiente
+    - .env (arquivo oculto).
+
+  -> pull request
+    - requisitar merge de alguma branch para a branch master.
+      - após é possível deletar a branch.
+
+- Principais comando:
+
+  -> git remote add origin url
+    - adicionar repositório remoto para o projeto.
+
+  -> git push -u origin master
+    - fazer push da branch master do projeto para o novo repositório.
+
+  -> git pull
+    - atualiza repositório local.
+
+  -> git fetch
+    - atualiza branches locais
+
+  -> git fetch origin
+    - retorna lista de branchs do repositório remoto
+
+  -> git checkout branchX
+    - realiza a troca para o branchX
+
+  -> git merge "branchX"
+    -> git push -u origin master
+      - realiza o push dos arquivos locais da branchX
+  * para isso, deve-se ter lançado o comando add na branchX

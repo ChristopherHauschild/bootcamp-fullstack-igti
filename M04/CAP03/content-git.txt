@@ -59,11 +59,3 @@
   -> git branch -d newBranch: exclui branch
 
   -> git log: visualizar logs do projeto  
-
-
-- GitHub
-  - variáveis de ambiente
-    -> .env
-
-  - fazer push de um projeto para um novo repositório.
-    -> git add remote origin
