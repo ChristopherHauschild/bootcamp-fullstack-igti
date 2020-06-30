@@ -1,0 +1,19 @@
+- Introdução e Instalação do Heroku CLI
+  -> Plataforma de Serviços na Nuvem (PaaS)
+  -> plataforma integrada ao Git
+  -> deploy automático
+
+* heroku login
+
+- Deploy no Heroku
+  -> heroku create
+    - adiciona um novo git remote
+
+  -> heroku ps:scale web=1
+    - rodar aplicação em apenas um servidor
+
+  -> heroku open
+
+  -> git push heroku master
+
+  -> necessário configurar variáveis de ambiente no heroku
